@@ -11,7 +11,7 @@ label = _("Show the Welcome box"),
 help_text = _("Do you want to show the welcome box when a user first visits your site."),
 required=False))
 
-APP_INTRO = Setting('APP_INTRO', u'<p>Ask and answer questions, make the world better!</p>', SIDEBAR_SET, dict(
+APP_INTRO = Setting('APP_INTRO', u'<p>Welcome to the GSC Cloud Project Open Source Q&A (OSQA) documentation system.</p>', SIDEBAR_SET, dict(
 label = _("Application intro"),
 help_text = _("The introductory page that is visible in the sidebar for anonymous users."),
 widget=Textarea))
@@ -40,7 +40,7 @@ help_text = "Tips visible on the ask or edit questions page about good tagging."
 required=False))
 
 
-SIDEBAR_UPPER_SHOW = Setting('SIDEBAR_UPPER_SHOW', True, SIDEBAR_SET, dict(
+SIDEBAR_UPPER_SHOW = Setting('SIDEBAR_UPPER_SHOW', False, SIDEBAR_SET, dict(
 label = "Show Upper Block",
 help_text = "Check if your pages should display the upper sidebar block.",
 required=False))
@@ -84,11 +84,15 @@ required=False))
 
 SIDEBAR_LOWER_TEXT = Setting('SIDEBAR_LOWER_TEXT',
 u"""
-## Learn more about OSQA
+## Learn more about the GSC Cloud Project.
 
-The [**OSQA website**](http://www.osqa.net/) and [**OSQA wiki**](http://wiki.osqa.net/) \
-are great resources to help you learn more about the OSQA open source Q&A system. \
-[**Join the OSQA chat!**](http://meta.osqa.net/question/79/is-there-an-online-chat-room-or-irc-channel-for-osqa#302)
+The GSC Cloud Project is funded in whole or part with federal funds from the \
+National Institute of Allergy and Infectious Diseases, \ 
+National Institutes of Health, \
+Department of Health and Human Services under contract numbers N01-AI30071 and/or HHSN272200900007C. \
+This project is part of the 
+To learn more about this documentation system visit the [**OSQA website**](http://www.osqa.net/) and \
+[**OSQA wiki**](http://wiki.osqa.net/) \
 """, SIDEBAR_SET, dict(
 label = "Lower Block Content",
 help_text = " The lower sidebar block. ",
