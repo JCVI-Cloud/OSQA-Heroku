@@ -84,15 +84,16 @@ required=False))
 
 SIDEBAR_LOWER_TEXT = Setting('SIDEBAR_LOWER_TEXT',
 u"""
-## Learn more about the GSC Cloud Project.
+## This is the documenation site for the Viral genomics Cloud Resource (VCR)
+developed at the J. Craig Venter Institute (JCVI).
 
-The GSC Cloud Project is funded in whole or part with federal funds from the \
-National Institute of Allergy and Infectious Diseases, \ 
-National Institutes of Health, \
-Department of Health and Human Services under contract numbers N01-AI30071 and/or HHSN272200900007C. \
-This project is part of the 
-To learn more about this documentation system visit the [**OSQA website**](http://www.osqa.net/) and \
-[**OSQA wiki**](http://wiki.osqa.net/) \
+This project is part of the development for the JCVI Genomic Sequencing Center for \
+Infectious Diseases (GSCID) and funded in whole or part with federal funds from \
+NAID, NIH and DHHS under contract numbers N01-AI30071 and/or HHSN272200900007C. \
+
+For more information follow these links [**1**]{http://gsc.jcvi.org/},\
+[**2**]{http://www.jcvi.org/cms/research/projects/jcvi-cloud-BioLinux/overview/},\
+
 """, SIDEBAR_SET, dict(
 label = "Lower Block Content",
 help_text = " The lower sidebar block. ",
