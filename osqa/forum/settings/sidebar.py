@@ -89,7 +89,7 @@ developed at the J. Craig Venter Institute (JCVI).
 
 This project is part of the development for the JCVI Genomic Sequencing Center for \
 Infectious Diseases (GSCID) and funded in whole or part with federal funds from \
-NAID, NIH and DHHS under contract numbers N01-AI30071 and/or HHSN272200900007C. \
+NIAID, NIH and DHHS under contract numbers N01-AI30071 and/or HHSN272200900007C. \
 
 For more information follow these links [**1**]{http://gsc.jcvi.org/},\
 [**2**]{http://www.jcvi.org/cms/research/projects/jcvi-cloud-BioLinux/overview/},\
